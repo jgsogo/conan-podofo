@@ -15,7 +15,7 @@ class PodofoConan(ConanFile):
 
     def requirements(self):
         self.requires("freetype/2.9.0@bincrafters/stable")
-        self.requires("fontconfig/2.13.0@jgsogo/stable")
+        self.requires("fontconfig/2.13.1@jgsogo/stable")
 
     def source(self):
         url = "http://sourceforge.net/projects/podofo/files/podofo/{version}/podofo-{version}.tar.gz"
