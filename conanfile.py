@@ -14,7 +14,7 @@ class PodofoConan(ConanFile):
     exports_sources = ["CMakeLists.txt"]
 
     def requirements(self):
-        self.requires("freetype/2.9.0@bincrafters/stable")
+        #self.requires("freetype/2.9.0@bincrafters/stable")
         self.requires("fontconfig/2.13.1@jgsogo/stable")
 
     def source(self):

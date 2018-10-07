@@ -1,6 +1,6 @@
 #include <iostream>
-#include "hello.h"
+#include "podofo/podofo.h"
 
 int main() {
-    hello();
+    std::cout << "Podofo v" << PODOFO_VERSION_STR << std::endl;
 }
