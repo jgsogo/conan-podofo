@@ -5,9 +5,9 @@ env:
      - CONAN_REFERENCE: "podofo/0.9.6"
      - CONAN_CHANNEL: "testing"
      - CONAN_STABLE_BRANCH_PATTERN: "release/*"
-     - CONAN_TOTAL_PAGES: 3
      - CONAN_UPLOAD_ONLY_WHEN_STABLE: 1 # Will only upload when the branch matches "release/*"
      - CONAN_DOCKER_32_IMAGES: 1
+     - CONAN_REMOTES: https://api.bintray.com/conan/bincrafters/public-conan@False@bincrafters
 
 linux: &linux
    os: linux
